@@ -1,11 +1,15 @@
-- name: Software Engineer Keywords
+- name: 擅长领域
   keywords:
       - C++
       - Python
-      - Design Patterns
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
       - Qt
-      - COM
+      - 设计模式
+      - 架构
+      - 算法
+
+- name: 软技能
+  keywords:
+      - 谈天
+      - 说地
+      - 侃代码
+      - 开车

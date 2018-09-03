@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 关于
 description: 谈天、说地、侃代码、开车
 keywords: Liang Wang, 王亮
 comments: true
@@ -12,13 +12,13 @@ permalink: /about/
 
 纯正开源之美，有趣、好玩、靠谱。。。~O(∩_∩)O~
 
-## 联系
+## 联系方式
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}
 
-## Skill Keywords
+## 必杀技
 
 {% for category in site.data.skills %}
 ### {{ category.name }}
