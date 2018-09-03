@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://waleon.github.io/
+url: https://waleon.github.io
 date_format: "ordinal"
 title: 一去丶二三里
 subtitle: "青春不老，奋斗不止！"
