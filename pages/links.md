@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Links
+title: 链接
 description: 没有链接的博客是孤独的
 keywords: 友情链接
 comments: true
@@ -8,7 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+> 上天决定了谁是你的亲戚，好在我们可以自己选择朋友。
 
 {% for link in site.data.links %}
 * [{{ link.name }}]({{ link.url }})

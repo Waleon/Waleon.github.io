@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于
+title: 关于作者
 description: 谈天、说地、侃代码、开车
 keywords: Liang Wang, 王亮
 comments: true
