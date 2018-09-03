@@ -18,7 +18,7 @@ permalink: /about/
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}
 
-## 必杀技
+## 擅长领域
 
 {% for category in site.data.skills %}
 ### {{ category.name }}

@@ -1,7 +1,8 @@
-- name: 擅长领域
+- name: 必杀技
   keywords:
       - C++
       - Python
+      - Linux
       - Qt
       - 设计模式
       - 架构
