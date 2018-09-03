@@ -2,10 +2,10 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://waleon.github.io/
 date_format: "ordinal"
-title: 青春不老，奋斗不止！
-subtitle: "纯正开源之美，有趣、好玩、靠谱。。。~O(∩_∩)O~"
+title: 一去丶二三里
+subtitle: "青春不老，奋斗不止！"
 description: "Waleon的个人博客"
 keywords: 一去丶二三里, Waleon, Liang Wang
 timezone: Asia/Shanghai

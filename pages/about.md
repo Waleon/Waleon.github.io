@@ -1,18 +1,16 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
+description: 谈天、说地、侃代码、开车
 keywords: Liang Wang, 王亮
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+进步始于交流， 收获源于分享。
 
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+纯正开源之美，有趣、好玩、靠谱。。。~O(∩_∩)O~
 
 ## 联系
 
