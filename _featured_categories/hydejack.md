@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Hydejack
+title: 博客
 slug: hydejack
 menu: true
 order: 1
