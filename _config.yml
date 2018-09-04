@@ -25,12 +25,10 @@ title:                 一去、二三里
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   "青春不老，奋斗不止！".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
 tagline:               >
-  "有趣、好玩、靠谱".
-  Open `_config.yml` to edit this text.
+  "纯正开源之美，有趣、好玩、靠谱。。。~O(∩_∩)O~".
 
 # A list of keywords for your blog
 keywords:              []
