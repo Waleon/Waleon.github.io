@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Hyde
+title: 分类
 slug: hyde
 menu: true
 order: 2
