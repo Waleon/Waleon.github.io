@@ -6,7 +6,7 @@ description: >
   Open `resume.md` to edit this text.
 hide_description: false
 menu: true
-order: 2
+order: 4
 left_column:
  - work
  - volunteer
