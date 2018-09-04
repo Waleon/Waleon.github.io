@@ -1,6 +1,6 @@
 ---
 description: >
-  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
+  Log4j for C++ 实用指南
 hide_description: true
 menu: true
 order: 5
@@ -8,11 +8,11 @@ permalink: /docs/
 ---
 
 # 文档
-Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-Should you think something is missing, [please let me know](mailto:mail@qwtel.com).
-Should you discover a mistake in the docs (or a bug in general) feel free to [open an issue](https://github.com/qwtel/hydejack/issues) on GitHub.
+在这里，你应该能够找到 Log4Qt 相关的所有内容。
+如果你认为缺少某些东西，[请让我知道](mailto:550755606@qq.com)。
+如果你发现文档中的错误，请随时在 GitHub 上 [打开一个问题](https://github.com/Waleon/Log4Qt-examples/issues)。
 
-**NOTE**: While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
+**注意**： 虽然本手册对初学者比较友好，但作为 Log4Qt 的用户，要对 Qt 的知识有所了解。
 {:.message}
 
 Buyers of the PRO version can jump straight to [installation for pro buyers](install.md#pro-version),
