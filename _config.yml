@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://domain.tld
+url:                   https://waleon.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -31,7 +31,7 @@ tagline:               >
   谈天、说地、侃代码、开车。
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [C++, Python, Qt, Linux, 设计模式, 框架, 架构]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -40,8 +40,8 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Liang Wang
+  email:               550755606@qq.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
