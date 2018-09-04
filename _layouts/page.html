@@ -1,38 +1,27 @@
 ---
-layout: default
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+layout: base
 ---
-<section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15}}">
-    <div class="container">
-        <div class="collection-title">
-            <h1 class="collection-header">{{ page.title }}</h1>
-            {% if page.subtitle %}
-                <div class="collection-info">
-                    <span class="meta-info">
-                        {{ page.subtitle}}
-                    </span>
-                </div>
-            {% endif %}
-        </div>
-    </div>
-</section>
-<!-- / .banner -->
- <section class="container content">
-        <div class="columns">
-            <div class="column two-thirds" >
-                <article class="article-content markdown-body">
-                    {{ content }}
-                </article>
-                <div class="share">
-                    {% include sns-share.html %}
-                </div>
-                <div class="comment">
-                    {% include comments.html %}
-                </div>
-            </div>
-            <div class="column one-third">
-                {% include sidebar-search.html %}
-                {% include sidebar-popular-repo.html %}
-            </div>
-        </div>
-    </section>
-    <!-- /section.content -->
+
+<article class="page" role="article">
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
+
+  {{ content }}
+</article>
