@@ -18,24 +18,24 @@ permalink: /docs/
 Buyers of the PRO version can jump straight to [installation for pro buyers](install.md#pro-version),
 or [upgrades for pro buyers](upgrade.md#pro-version).
 
-## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
+## 开始入门
+* [Install]{:.heading.flip-title} --- 如何安装和运行 Hydejack。
+* [Upgrade]{:.heading.flip-title} --- 如果之前没有使用过 Hydejack，可以跳过这个。
+* [Config]{:.heading.flip-title} --- 一旦 Jekyll 运行，就可以开始编辑配置文件了。
 {:.related-posts.faded}
 
-## Using Hydejack
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
-* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
-* [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
-* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
-* [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
+## 基本使用
+* [Basics]{:.heading.flip-title} --- 如何添加不同类型的内容。
+* [Writing]{:.heading.flip-title} --- 为 Hydejack 制作 markdown 内容。
+* [Scripts]{:.heading.flip-title} --- 如何在网站上包含第三方脚本。
+* [Build]{:.heading.flip-title} --- 如何构建静态文件以进行部署。
+* [Advanced]{:.heading.flip-title} --- 更高级任务的指南。
 {:.related-posts.faded}
 
-## Other
-* [LICENSE]{:.heading.flip-title} --- The license of this project.
-* [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
-* [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
+## 其他
+* [LICENSE]{:.heading.flip-title} --- 该项目的许可证。
+* [NOTICE]{:.heading.flip-title} --- 此程序的部分内容在不同的许可下提供。
+* [CHANGELOG]{:.heading.flip-title} --- Hydejack 的版本历史。
 {:.related-posts.faded}
 
 [install]: install.md
