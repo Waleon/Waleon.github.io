@@ -6,21 +6,21 @@ hide_description: true
 permalink: /
 ---
 
-# Howdy!
-I'm Dan. 馃帀 I'm a developer, designer, and writer. I study information design and data visualization
-as a graduate student at [Northeastern University](https://www.northeastern.edu/visualization/) in Boston, MA.
-## What I Like Doing
-I enjoy making graphics and interactive toys to explain concepts and data. I especially like 
-undertaking projects that involve journalism, narrative, and presenting a big idea. Most of my work
-utilizes HTML, CSS, JavaScript, and frameworks like [D3](https://d3js.org). 
+# 你好
 
-I'm a firm believer in the power of words. Writing is my therapy.
+我是王亮，现就职于某上市公司，担任高级工程师、架构师，CSDN 博客专家（昵称：一去丶二三里），从事 C++、Python 开发工作，专注于代码，热衷于分享。
 
-I also love teaching!
+大多数技术相关的教程位于 [CSDN 博客](https://blog.csdn.net/liang19890820) 中，可以持续关注。
 
-## What I'm Doing Now (Updated 8-19-18)
-* About to start my final year of classes. I have to make a thesis. It's probably going to involve baseball.
-* Learning React from a great [course](https://www.udemy.com/react-2nd-edition/) by Andrew Mead on Udemy.
-* Teaching myself piano.
-* Starting a blog, because the writing folder on my desktop is getting a bit stale.
-* Reading [The Book of Jonas](https://www.goodreads.com/book/show/12528627-the-book-of-jonas) by Stephen Dau.
+## 兴趣爱好
+
+除了 coding 之外，我还比较喜欢听听音乐、打打球、爬爬山。
+
+我坚信语言的力量，写作会与我终身相伴。
+
+## 我现在在做什么
+
+* 搭建个人博客系统
+* 持续写作，提升自我。
+* 研究项目管理
+* 阅读书籍 [非暴力沟通](https://book.douban.com/subject/3533221/) 
