@@ -8,11 +8,10 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    青春不老，奋斗不止！
+    纯正开源之美，有趣、好玩、靠谱。。。~O(∩_∩)O~
 
-    Open `_data/authors.yml` to edit this text.
+    打开 `_data/authors.yml` 来编辑这段文本。
 
     [Download Free][kit]
     -- or --
