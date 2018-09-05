@@ -3,7 +3,7 @@ description: >
   Log4j for C++ 实用指南
 hide_description: true
 menu: true
-order: 5
+order: 4
 permalink: /docs/
 ---
 
