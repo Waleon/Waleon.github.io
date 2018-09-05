@@ -80,7 +80,7 @@ author2:
     纯正开源之美，有趣、好玩、靠谱 ~O(∩_∩)O~
 
     打开 `_data/authors.yml` 来编辑这段文本。
-  picture:           https://placehold.it/128x128
+  picture:           ../assets/icons/icon.png
   twitter:           <username>
   github:            <username>
   accent_color:      '#268bd2'
