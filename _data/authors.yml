@@ -73,16 +73,15 @@ author1:
 
 # Another author (optional)
 author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Liang Wang
+  email:             550755606@qq.com
   about:             |
     青春不老，奋斗不止！
     纯正开源之美，有趣、好玩、靠谱 ~O(∩_∩)O~
 
-    打开 `_data/authors.yml` 来编辑这段文本。
   picture:           ../assets/icons/icon.png
-  twitter:           <username>
-  github:            <username>
+  # twitter:           Waleon
+  github:            Waleon
   accent_color:      '#268bd2'
   accent_image:
     background:      '#202020'
