@@ -13,8 +13,8 @@
 home:                  Home
 pages:                 Pages
 posts:                 Posts
-about:                 About
-related_posts:         Related Posts
+about:                 关于
+related_posts:         相关文章
 other_projects:        Other Projects
 comments:              Comments
 jump_to:               Jump to
@@ -34,7 +34,7 @@ loading:               Loading…
 redirecting:           Redirecting…
 
 continue_reading:      >
-  Continue reading <!--post_title-->
+  继续阅读 <!--post_title-->
 
 cookies_banner:
   text:                >
