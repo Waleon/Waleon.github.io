@@ -44,7 +44,8 @@ cookies_banner:
 not_found:
   title:               '404: 页面未找到'
   message:             |
-    哎呀...不小心迷路了，请 <!--home_link--> 再次尝试。
+    哎呀呀，不小心迷路了...
+    请 <!--home_link--> 再次尝试。
   home_link:           返回首页
 
 error:
