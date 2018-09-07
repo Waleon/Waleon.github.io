@@ -18,6 +18,7 @@ accent_image:
 
 {% for category in site.categories %}
 <h2 class="hr">{{ category | first }}</h2>
+<h2 class="hr">{{ category | second }}</h2>
 
 <ul class="title-list">
 {% for post in category.last %}
@@ -32,27 +33,6 @@ accent_image:
 
 {% endfor %}
 
-{% for titlea in site.categories[page.title] %}
-<h2 class="hr">{{ titlea }}</h2>
-
-
-{% assign posts = site.categories[page.slug] %}
-
-{% if page.title.size > 0 %}
-  <header>
-    <h1 class="page-title">{{ page.title }}</h1>
-  </header>
-  <hr class="sr-only"/>
-{% endif %}
-
-{% for post in posts %}
-  {% assign currentdate = post.date | date:list_group_by %}
-  {% if currentdate != date %}
-    {% unless forloop.first %}</ul>{% endunless %}
-    <h2 id="{{ list_group_by | slugify }}-{{ currentdate | slugify }}" class="hr">{{ currentdate }}</h2>
-    <ul class="related-posts">
-    {% assign date = currentdate %}
-  {% endif %}
-  123456
-  {% if forloop.last %}</ul>{% endif %}
+{% for post in site.tags[page.tag] %}
+    <a href="{{ post.url }}/">{{ post.title }}</a>
 {% endfor %}
