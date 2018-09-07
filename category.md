@@ -12,8 +12,7 @@ accent_image:
 ---
 
 {% assign date_formats  = site.data.strings.date_formats               %}
-{% assign list_group_by = date_formats.list_group_by | default:"%Y"    %}
-{% assign list_entry    = date_formats.list_entry    | default:"%d %b" %}
+{% assign format = date_formats.related_post | default:"%d %b %Y" %}
 
 {% for category in site.categories %}<a class="button" href="#{{ category | first }}">{{ category | first }}</a>{% endfor %}
 
@@ -26,7 +25,7 @@ accent_image:
   <a href="{{ post.url | relative_url }}" class="h4 flip-title">
     <span>{{ post.title }}</span>
   </a>
-  <time class="heading faded fine" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:list_entry }}</time>
+  <time class="heading faded fine" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:format }}</time>
 </li>
 {% endfor %}
 </ul>
