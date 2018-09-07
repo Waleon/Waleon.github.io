@@ -15,11 +15,21 @@ accent_image:
 
 {% for category in site.categories %}
 <h2><a id="{{ category | first }}">{{ category | first }}</a></h2>
-<h2 class="hr">{{ category | first }}</h2>
 
 <ul class="title-list">
 {% for post in category.last %}
 <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+{% endfor %}
+
+
+{% for category in site.categories %}
+<h2 class="hr">{{ category | first }}</h2>
+
+<ul class="title-list">
+{% for post in category.last %}
 {% include _includes/components/post-list-item.html post=post %}
 {% endfor %}
 </ul>
