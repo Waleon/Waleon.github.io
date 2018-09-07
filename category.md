@@ -30,7 +30,12 @@ accent_image:
 
 <ul class="title-list">
 {% for post in category.last %}
-{% include _includes/components/post-list-item.html post=post %}
+<li>
+  <a href="{{ post.url | relative_url }}" class="h4 flip-title">
+    <span>{{ post.title }}</span>
+  </a>
+  <time class="heading faded fine" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:format }}</time>
+</li>
 {% endfor %}
 </ul>
 
