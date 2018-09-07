@@ -18,7 +18,7 @@ accent_image:
 
 <ul class="title-list">
 {% for post in category.last %}
-<li><a href="{{ post.url | relative_url }}">{{ post.title }}<span>{{ post.date | date:"%Y-%m-%d" }}</span></a></li>
+<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
