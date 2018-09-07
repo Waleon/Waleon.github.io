@@ -32,7 +32,11 @@ accent_image:
 
 {% endfor %}
 
-{% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
+{% for titlea in site.categories[page.title] %}
+<h2 class="hr">{{ titlea }}</h2>
+
+
+{% assign posts = site.categories[page.slug] %}
 
 {% if page.title.size > 0 %}
   <header>
