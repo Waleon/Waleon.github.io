@@ -16,9 +16,11 @@ accent_image:
 {% assign list_entry    = date_formats.list_entry    | default:"%d %b"    %}
 {% assign format        = date_formats.related_post  | default:"%d %b %Y" %}
 
-{% for category in site.categories %}
+{% assign posts = site.categories[page.title] | default:site.tags[page.title] | default:site.posts %}
+
+{% for category in posts %}
 <h2 class="hr">{{ category | first }}</h2>
-<h2 class="hr">{{ category | second }}</h2>
+<h2 class="hr">{{ category.title }}</h2>
 
 <ul class="title-list">
 {% for post in category.last %}
@@ -31,8 +33,4 @@ accent_image:
 {% endfor %}
 </ul>
 
-{% endfor %}
-
-{% for post in site.tags[page.tag] %}
-    <a href="{{ post.url }}/">{{ post.title }}</a>
 {% endfor %}
