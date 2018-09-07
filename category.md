@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: category
 title: 分类
 menu: true
 order: 2
@@ -10,33 +10,3 @@ accent_image:
   background: rgb(32,32,32)
   overlay:    false
 ---
-
-{% for category in site.categories %}<a class="button" href="#{{ category | first }}">{{ category | first }}</a>{% endfor %}
-
-{% for category in site.categories %}
-<h2><a id="{{ category | first }}">{{ category | first }}</a></h2>
-
-<ul class="title-list">
-{% for post in category.last %}
-<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
-
-{% endfor %}
-
-
-{% for category in site.categories %}
-<h2 class="hr">{{ category | first }}</h2>
-
-<ul class="title-list">
-{% for post in category.last %}
-<li>
-  <a href="{{ post.url | relative_url }}" class="h4 flip-title">
-    <span>{{ post.title }}</span>
-  </a>
-  <time class="heading faded fine" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:format }}</time>
-</li>
-{% endfor %}
-</ul>
-
-{% endfor %}
