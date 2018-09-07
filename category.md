@@ -14,9 +14,7 @@ accent_image:
 {% for category in site.categories %}<a class="button" href="#{{ category | first }}">{{ category | first }}</a>{% endfor %}
 
 {% for category in site.categories %}
-
 <h2><a id="{{ category | first }}">{{ category | first }}</a></h2>
-
 <h2 class="hr">{{ category | first }}</h2>
 
 <ul class="title-list">
