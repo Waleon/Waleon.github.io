@@ -12,13 +12,10 @@ accent_image:
 ---
 
 {% assign date_formats  = site.data.strings.date_formats                  %}
-{% assign list_group_by = date_formats.list_group_by | default:"%Y"       %}
-{% assign list_entry    = date_formats.list_entry    | default:"%d %b"    %}
 {% assign format        = date_formats.related_post  | default:"%d %b %Y" %}
 
 {% for category in site.categories %}
 <h2 class="hr">{{ category | first }}</h2>
-<h2 class="hr">{{ category}}</h2>
 
 <ul class="title-list">
 {% for post in category.last %}
