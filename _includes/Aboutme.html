@@ -6,13 +6,13 @@
 
   {% if site.ShowContactInfo == "True" %}
 
- 可以通过以下方式联系我:
+ 可以通过以下方式联系我:<br/>
 
   {% if site.email != empty %}
-  <a href="mailto:{{site.email}}" title="mailto: {{site.email}}"><i class="fa fa-envelope-square fa-3x"></i></a> /
+  <a href="mailto:{{site.email}}" title="mailto: {{site.email}}"><i class="fa fa-envelope-square fa-3x"></i></a>&nbsp;
   {% endif %}
   {% if site.github_username != empty %}
-  <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}"><i class="fa fa-github-square fa-3x"></i></a> /
+  <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}"><i class="fa fa-github-square fa-3x"></i></a>&nbsp;
   {% endif %}
   {% if site.twitter_username != empty %}
   <a href="https://twitter.com/{{site.twitter_username}}" title="TwitterID: {{site.twitter_username}}"><i class="fa fa-twitter-square fa-3x"></i></a>
