@@ -35,6 +35,8 @@ accent_image:
 {% if tags.size > 0 %}
   {% assign content = start_with %}
   {% for tag_slug in tags %}
+	<h2 class="hr">{{ tag_slug}}</h2>
+	<h2 class="hr">{{ tag_slug | first }}</h2>
     {% capture iter_separator %}{% if forloop.last %}{{ end_with }}{% else %}{{ separator }}{% endif %}{% endcapture %}
 
     {% assign tag = meta | where: "slug", tag_slug | first %}
