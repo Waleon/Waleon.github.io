@@ -1,9 +1,9 @@
 ### Site info:
 title: 一去丶二三里
-tagline: 纯正开源之美，有趣、好玩、靠谱。。。~O(∩_∩)O~
+tagline: 谈天、说地、侃代码、开车 ~O(∩_∩)O~
 author: Waleon
 email: 550755606@qq.com
-description: "谈天、说地、侃代码、开车"
+description: "青春不老，奋斗不止！"
 keywords: "C++, Qt, Python"
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://yulijia.net/freshman21" # the base hostname & protocol for your site
@@ -14,7 +14,7 @@ twitter_username: Waleon
 github_username:  Waleon
 disqus_shortname: freshman21
 favicon:     "/images/favicon.ico"
-aboutme: 嗨，我是一去丶二三里，欢迎来到我的主页。
+aboutme: 纯正开源之美，有趣、好玩、靠谱。
 aboutme_photo: /images/me.png
 google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
 
