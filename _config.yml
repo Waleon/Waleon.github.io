@@ -3,15 +3,15 @@ title: 青春不老，奋斗不止！
 tagline: 纯正开源之美，有趣、好玩、靠谱。。。~O(∩_∩)O~
 author: Waleon
 email: 550755606@qq.com
-description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Jekyll, theme, Freshman21"
+description: "谈天、说地、侃代码、开车"
+keywords: "C++, Qt, Python"
 baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
 url: "https://yulijia.net/freshman21" # the base hostname & protocol for your site
-locale: en_US
+locale: zh_CN
 
 ### Personal info and site tools info:
-twitter_username: yulijia
-github_username:  yulijia
+twitter_username: Waleon
+github_username:  Waleon
 disqus_shortname: freshman21
 favicon:     "/images/favicon.ico"
 aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
