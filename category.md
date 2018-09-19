@@ -19,39 +19,17 @@ accent_image:
 
 
 
-{% assign category_start     = site.data.strings.category_start     | default:"in " %}
-{% assign tag_start          = site.data.strings.tag_start          | default:"on " %}
-{% assign category_separator = site.data.strings.category_separator | default:" / " %}
-{% assign tag_separator      = site.data.strings.tag_separator      | default:", "  %}
+{% for page in site.pages %}
+  {% if page.categories contains 'stink' %}
+    <div class="item">
+      <h3><a href="{{ page.url }}">
+        {{ page.title }}
+      </a></h3>
 
-{% assign tags = post.tags %}
-{% assign meta = site.featured_tags %}
-{% assign start_with = tag_start %}
-{% assign separator = tag_separator %}
-{% assign end_with = include.end_with %}
-
-{% assign content = '' %}
-
-{% if tags.size > 0 %}
-  {% assign content = start_with %}
-  {% for tag_slug in tags %}
-	<h2 class="hr">{{ tag_slug}}</h2>
-	<h2 class="hr">{{ tag_slug | first }}</h2>
-    {% capture iter_separator %}{% if forloop.last %}{{ end_with }}{% else %}{{ separator }}{% endif %}{% endcapture %}
-
-    {% assign tag = meta | where: "slug", tag_slug | first %}
-
-    {% if tag %}
-      {% capture content_temp %}{{ content }}<a href="{{ tag.url | relative_url }}" class="flip-title">{{ tag.title }}</a>{{ iter_separator }}{% endcapture %}
-    {% else %}
-      {% capture content_temp %}{{ content }}<span>{{ tag_slug | capitalize }}</span>{{ iter_separator }}{% endcapture %}
-    {% endif %}
-
-    {% assign content = content_temp %}
-  {% endfor %}
+      <p>{{page.description}}</p>  
+    </div>
+  {% endif %}
 {% endif %}
-
-{{ content }}
 
 
 
