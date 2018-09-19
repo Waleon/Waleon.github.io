@@ -1,7 +1,7 @@
 ---
 layout: list
 title: 框架
-slug: 框架啊
+slug: framework
 description: >
   Don't Repeat Yourself.
   易于使用的框架，能让你事半功倍。
