@@ -16,10 +16,9 @@ accent_image:
 
 {% for category in site.categories %}
 <h2 class="hr">{{ category | first }}</h2>
-<h2 class="hr">{{ category.title }}</h2>
-<h2 class="hr">{{ site.categories[page.slug] }}</h2>
-<h2 class="hr">{{ site.title }}</h2>
-<h2 class="hr">{{ site.description }}</h2>
+
+{% for tag in site.tags %}
+<h2 class="hr">{{ tag.title }}</h2>
 
 <ul class="title-list">
 {% for post in category.last %}
