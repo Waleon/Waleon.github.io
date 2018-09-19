@@ -173,12 +173,12 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-      - name: Freshman
-        href: http://yulijia.net/freshman
-        title: Another Jekyll blog theme
-      - name: author's website
-        href: http://yulijia.net/
-        title: Lijia Yu's website
+      - name: 一去丶二三里
+        href: https://blog.csdn.net/liang19890820
+        title: CSDN 博客
+      - name: 寒山-居士
+        href: https://www.heilqt.com/
+        title: Qter 的宠儿
 
 
 ### Build settings
