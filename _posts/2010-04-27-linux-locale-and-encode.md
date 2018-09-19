@@ -1,7 +1,7 @@
 ---
 layout: post
 title: linux 文件编码 字符集 语言标志 编码转换
-category: code
+category: 框架
 tags: [locale, utf8, unicode, i18n]
 ---
 
