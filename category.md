@@ -17,23 +17,6 @@ accent_image:
 {% for category in site.categories %}
 <h2 class="hr">{{ category | first }}</h2>
 
-
-
-{% for page in site.pages %}
-  {% if page.categories contains 'stink' %}
-    <div class="item">
-      <h3><a href="{{ page.url }}">
-        {{ page.title }}
-      </a></h3>
-
-      <p>{{page.description}}</p>  
-    </div>
-  {% endif %}
-{% endif %}
-
-
-
-
 <ul class="title-list">
 {% for post in category.last %}
 <li>
