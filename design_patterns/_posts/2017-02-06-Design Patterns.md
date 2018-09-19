@@ -2,7 +2,6 @@
 layout: post
 title: 设计模式
 category: 设计模式
-tags: [创建型模式, 结构型模式, 行为型模式]
 description: >
   设计模式（Design Pattern）代表了最佳的实践，在面向对象的编程中被很多老鸟们反复使用。使用设计模式有很多好处：
 author: author2
