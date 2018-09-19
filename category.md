@@ -16,6 +16,12 @@ accent_image:
 
 {% for category in site.categories %}
 <h2 class="hr">{{ category | first }}</h2>
+{% assign category_start     = site.data.strings.category_start     | default:"in " %}
+{% assign tag_start          = site.data.strings.tag_start          | default:"on " %}
+{% assign category_separator = site.data.strings.category_separator | default:" / " %}
+{% assign tag_separator      = site.data.strings.tag_separator      | default:", "  %}
+{% include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator %}
+{% include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator %}
 
 <ul class="title-list">
 {% for post in category.last %}
