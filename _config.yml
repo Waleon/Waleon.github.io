@@ -5,7 +5,7 @@ author: Waleon
 email: 550755606@qq.com
 description: "谈天、说地、侃代码、开车"
 keywords: "C++, Qt, Python"
-baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://yulijia.net/freshman21" # the base hostname & protocol for your site
 locale: zh_CN
 
