@@ -30,7 +30,7 @@ layout: default
     </header>
 
     <article class="post-content" itemprop="articleBody">
-      {{ post.summary }}
+      {{ post.content | strip_html | truncatewords: 50 }}
     </article> <hr />
     
     {% endfor %}
