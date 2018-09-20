@@ -6,7 +6,7 @@ email: 550755606@qq.com
 description: "青春不老，奋斗不止！"
 keywords: "C++, Qt, Python"
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "https://yulijia.net/freshman21" # the base hostname & protocol for your site
+url: "https://www.waleon.cn" # the base hostname & protocol for your site
 locale: zh_CN
 
 ### Personal info and site tools info:
